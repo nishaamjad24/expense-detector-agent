@@ -507,7 +507,7 @@ def main():
             ax.set_ylabel("Amount (Rs.)")
             ax.set_title("Budget vs Actual Spending")
             ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'Rs.{x:,.0f}'))
-            st.pyplot(fig)
+            st.pyplot(fig)  
             plt.close()
 
 # ─── Run ───────────────────────────────────────────────────────────────────────
